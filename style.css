@@ -8,8 +8,6 @@ body{  box-sizing: border-box;
    /* background-color: black; */
 }
 .t{
-    
- 
     height: 50vh;
     width: 100%;
 }
@@ -87,6 +85,10 @@ body{  box-sizing: border-box;
     border-radius: 10px;
     height:100%;
     width: 100%;
+}
+.img1{
+    width: 120vw;
+    height: auto;
 }
 .elem1{
     display: flex;
