@@ -18,12 +18,7 @@ ben.addEventListener('click',function(){
       kevin.style.borderColor="black"
 
    }
-},
-// ben.addEventListener('mouseover',function(){
-//   if(document.body.style.backgroundColor="black"){
-//      ben.style.backgroundColor="white"
-//      ben.style.color="black"
-//   }
-// })
-)
+}
+
+
 console.log("happy");
