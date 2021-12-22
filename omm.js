@@ -18,7 +18,8 @@ ben.addEventListener('click',function(){
       kevin.style.borderColor="black"
 
    }
-}
-
-
+},
+// 
+// 
+)
 console.log("happy");
