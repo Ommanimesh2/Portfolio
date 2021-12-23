@@ -1,15 +1,24 @@
 *{
-    list-style: none
+    list-style: none;
+    text-decoration: none;
 }
 body{  box-sizing: border-box;
     margin: 0px;
     padding: 0px;
+    
    ;
    /* background-color: black; */
+}
+a{
+    color: white;
+}
+a:hover{
+    color: grey;
 }
 .t{
     height: 50vh;
     width: 100%;
+
 }
 .navbar{
     display: flex;
@@ -38,6 +47,7 @@ body{  box-sizing: border-box;
     .nav-items{
         align-items: center;
         padding: 30px;
+
     }
   
     .nav-items:hover{
