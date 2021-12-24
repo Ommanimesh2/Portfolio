@@ -55,6 +55,27 @@ a:hover{
         cursor: pointer;
         color: grey;
     }
+    .navt{
+        margin: 5vh;
+        height: 5vh;
+        background-color: brown;
+        color: white;
+        border: 2px solid black;
+        border-radius: 15px;
+        transition: 0.8s;
+    }
+    .nnat{
+        background-image: url("color.jpg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navt:hover{
+        height: 7vh;
+        width: 10vw;
+        border-radius: 40px;
+        
+    }
 
 .about{
     font-size: 2vw;
@@ -67,7 +88,6 @@ a:hover{
     border: 3px dashed black;
     border-radius: 5px;
     margin: 20px;
-    box-sizing: border-box;
     display: flex;
     flex-direction: row-reverse;
     
@@ -75,7 +95,7 @@ a:hover{
 .element1:hover{
     border-radius: 50px;
     background-color: chartreuse;
-    border: 6px solid lightpink;
+    border: 6px solid black;
 }
 @keyframes otg{
     0%{
@@ -217,3 +237,25 @@ a:hover{
      border-radius: 30px;
      width: 10%;
  }
+.feedback{
+    font-size: xx-large;
+    height: 100px;
+    margin: 30px;
+}
+.lastbtns{
+    display: flex;
+    flex-direction: row;
+}
+.yes,.no{
+ width: 50%;
+ height: 4vh;
+ margin: 20px;
+ border-radius: 30px;
+ border: 2px solid black;
+ transition: 0.6s;
+}
+.yes:hover,.no:hover{
+    cursor: pointer;
+    height: 6vh;
+    border-radius: 40px;
+}
