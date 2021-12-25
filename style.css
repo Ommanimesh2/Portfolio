@@ -21,8 +21,11 @@ a:hover{
 
 }
 .navbar{
+
     display: flex;
     flex-direction: row;
+    position: sticky;
+    top: 0px;
     font-size: 30px;
     background-color: black;
     color: white;    
@@ -175,7 +178,6 @@ a:hover{
 .element2{
     animation: otg 2s ease-in 0s infinite;
     transition: 1s;
-    position:relative ;
     padding: 5px;
     border: 3px dashed black;
     border-radius: 5px;
